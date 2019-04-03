@@ -3,6 +3,8 @@ const config = require('./config/website')
 const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 module.exports = {
+  /* Github pages */
+    pathPrefix: "/gatsby-starter-portfolio",
   /* General Information */
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
