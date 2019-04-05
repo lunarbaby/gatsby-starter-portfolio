@@ -10,7 +10,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background-color: #161719;
+    background-color: #2a2e3a;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -21,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   a {
-    color: #e07628;
+    color: #fca397;
     text-decoration: none;
   }
 `
